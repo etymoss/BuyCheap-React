@@ -1,0 +1,298 @@
+.buy-page-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.buy-page-header {
+  width: 100%;
+  height: 157px;
+  display: flex;
+  max-width: var(--dl-size-size-maxwidth);
+  align-items: center;
+  padding-top: var(--dl-space-space-twounits);
+  padding-left: var(--dl-space-space-threeunits);
+  padding-right: var(--dl-space-space-threeunits);
+  padding-bottom: var(--dl-space-space-twounits);
+  justify-content: space-between;
+}
+.buy-page-lottie-node {
+  width: 186px;
+  height: 99px;
+}
+.buy-page-text {
+  width: 265px;
+  padding-top: 1px;
+}
+.buy-page-navlink {
+  cursor: pointer;
+  text-decoration: none;
+}
+.buy-page-mobile-menu {
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100vh;
+  display: none;
+  padding: 32px;
+  z-index: 100;
+  position: absolute;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #fff;
+}
+.buy-page-nav {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.buy-page-container1 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-bottom: var(--dl-space-space-threeunits);
+  justify-content: space-between;
+}
+.buy-page-image {
+  height: 2rem;
+}
+.buy-page-close-mobile-menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.buy-page-icon {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+}
+.buy-page-icon2 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+  margin-right: var(--dl-space-space-twounits);
+}
+.buy-page-icon4 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+  margin-right: var(--dl-space-space-twounits);
+}
+.buy-page-icon6 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+}
+.buy-page-steps {
+  width: 100%;
+  height: 491px;
+  display: flex;
+  padding: var(--dl-space-space-threeunits);
+  max-width: var(--dl-size-size-maxwidth);
+  align-items: center;
+  padding-right: 37px;
+  flex-direction: column;
+  padding-bottom: 48px;
+}
+.buy-page-text03 {
+  color: var(--dl-color-gray-black);
+  font-size: 3rem;
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: underline;
+}
+.buy-page-container2 {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+}
+.buy-page-container3 {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+}
+.buy-page-step {
+  display: flex;
+  padding: var(--dl-space-space-oneandhalfunits);
+  align-items: center;
+  flex-direction: column;
+}
+.buy-page-text04 {
+  color: var(--dl-color-gray-900);
+  font-size: 4rem;
+  text-align: center;
+  font-weight: 900;
+  margin-bottom: -30px;
+}
+.buy-page-text06 {
+  color: var(--dl-color-gray-500);
+  font-size: 0.75rem;
+  margin-top: var(--dl-space-space-oneandhalfunits);
+  text-align: center;
+}
+.buy-page-step1 {
+  display: flex;
+  padding: var(--dl-space-space-oneandhalfunits);
+  align-items: center;
+  flex-direction: column;
+}
+.buy-page-text11 {
+  color: var(--dl-color-gray-900);
+  font-size: 4rem;
+  text-align: center;
+  font-weight: 900;
+  margin-bottom: -30px;
+}
+.buy-page-text13 {
+  color: var(--dl-color-gray-500);
+  font-size: 0.75rem;
+  margin-top: var(--dl-space-space-oneandhalfunits);
+  text-align: center;
+}
+.buy-page-container4 {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+}
+.buy-page-step2 {
+  display: flex;
+  padding: var(--dl-space-space-oneandhalfunits);
+  align-items: center;
+  flex-direction: column;
+}
+.buy-page-text16 {
+  color: var(--dl-color-gray-900);
+  font-size: 4rem;
+  text-align: center;
+  font-weight: 900;
+  margin-bottom: -30px;
+}
+.buy-page-text18 {
+  color: var(--dl-color-gray-500);
+  font-size: 0.75rem;
+  margin-top: var(--dl-space-space-oneandhalfunits);
+  text-align: center;
+}
+.buy-page-step3 {
+  display: flex;
+  padding: var(--dl-space-space-oneandhalfunits);
+  align-items: center;
+  flex-direction: column;
+}
+.buy-page-text21 {
+  color: var(--dl-color-gray-900);
+  font-size: 4rem;
+  text-align: center;
+  font-weight: 900;
+  margin-bottom: -30px;
+}
+.buy-page-text23 {
+  color: var(--dl-color-gray-500);
+  font-size: 0.75rem;
+  margin-top: var(--dl-space-space-oneandhalfunits);
+  text-align: center;
+}
+.buy-page-text26 {
+  color: rgb(255, 0, 0);
+  text-transform: uppercase;
+}
+.buy-page-text31 {
+  text-decoration: underline;
+}
+@media(max-width: 991px) {
+  .buy-page-text03 {
+    text-align: center;
+  }
+  .buy-page-text04 {
+    text-align: center;
+  }
+  .buy-page-text11 {
+    text-align: center;
+  }
+  .buy-page-text16 {
+    text-align: center;
+  }
+  .buy-page-text21 {
+    text-align: center;
+  }
+}
+@media(max-width: 767px) {
+  .buy-page-header {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .buy-page-steps {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .buy-page-container2 {
+    flex-direction: column;
+  }
+  .buy-page-step {
+    padding: var(--dl-space-space-unit);
+  }
+  .buy-page-step1 {
+    padding: var(--dl-space-space-unit);
+  }
+  .buy-page-step2 {
+    padding: var(--dl-space-space-unit);
+  }
+  .buy-page-step3 {
+    padding: var(--dl-space-space-unit);
+  }
+}
+@media(max-width: 479px) {
+  .buy-page-header {
+    padding: var(--dl-space-space-unit);
+    padding-right: 16px;
+  }
+  .buy-page-text {
+    height: 52px;
+  }
+  .buy-page-mobile-menu {
+    padding: 16px;
+  }
+  .buy-page-steps {
+    padding-top: var(--dl-space-space-twounits);
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+    padding-bottom: var(--dl-space-space-twounits);
+  }
+  .buy-page-container2 {
+    height: 396px;
+  }
+  .buy-page-container3 {
+    width: 169px;
+    flex-direction: column;
+  }
+  .buy-page-step {
+    width: 100%;
+  }
+  .buy-page-container4 {
+    flex-direction: column;
+  }
+  .buy-page-step2 {
+    width: 164px;
+  }
+  .buy-page-step3 {
+    width: 164px;
+  }
+  .buy-page-text26 {
+    color: rgb(255, 0, 0);
+    width: 362px;
+    height: 54px;
+    text-transform: uppercase;
+  }
+  .buy-page-text27 {
+    text-decoration: underline;
+  }
+  .buy-page-text28 {
+    text-decoration: underline;
+  }
+  .buy-page-text29 {
+    text-decoration: underline;
+  }
+  .buy-page-text30 {
+    text-decoration: inherit;
+  }
+  .buy-page-text31 {
+    text-decoration: underline;
+  }
+}
